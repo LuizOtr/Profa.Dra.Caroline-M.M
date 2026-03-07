@@ -10,11 +10,13 @@ int main() {
 	cin >> a >> b;
 	
 	if(b != 0){
-		
-	};
+		result = a/b;
+		cout<<"Resultado: " << result << endl;
+	}
+	else{cout << "Divisao por zero!"<< endl;}
 	
 	result = a/b;
 	cout << "Resultado: " << result << endl;
 	
 	
-} 
+}
